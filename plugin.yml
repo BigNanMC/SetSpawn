@@ -1,0 +1,42 @@
+name: SetSpawnAndWarp
+main: me.bignan.setspawn.Main
+version: 2.3
+author: MrBoggleBooBoo aka BigNan
+commands:
+  spawn:
+    description: Teleports you to the server spawn
+    usage: /spawn
+  setspawn:
+    description: Sets the servers spawn
+    usage: /setspawn
+  warp:
+    description: Teleports you to a specific server warp
+    usage: /warp <warp name>
+  setspawn:
+    description: Sets a server warp for players to use
+    usage: /setwarp <warp name>
+  delspawn:
+    description: Delete a server warp that a player has set
+    usage: /delwarp <warp name>
+  SpawnReload:
+    description: Reload the plugins config.yml
+    usage: /spawnreload
+permissions:
+  spawn.use:
+    description: Allows you to go to spawn.
+    default: OP
+  spawn.set:
+    description: Allows you to set the spawn.
+    default: OP
+  warp.use:
+    description: Allows you to warp.
+    default: OP
+  warp.set:
+    description: Allows you to set a warp.
+    default: OP
+  delwarp.use:
+    description: Allows you to delete a warp.
+    default: OP
+  setspawn.reload:
+    description: Reloads the servers config.yml.
+    default: OP
