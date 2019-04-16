@@ -1,0 +1,34 @@
+##########################################
+#                                        #
+#            SetSpawn by BigNan          #
+#        Version 2.3  WARPS NEW          #
+#                                        #
+##########################################
+SpawnMessage: '&b&lDefault SetSpawn Message&a Change in &cconfig.yml'
+
+SetSpawnMessage: '&b&lYou have just set the spawn to this location'
+
+SetWarpMessage: '&b&lYou have just set a warp to this location'
+
+NoSpawnMessage: '&b&lThe server owner has not set any warps yet'
+
+NoWarpMessage: '&b&l%warp% does not exist'
+
+WarpUsage: '&b&lUse &a/warp <warp name>'
+
+SetWarpUsage: '&b&lUse &a/setwarp <warp name>'
+
+WarpMessage: '&7Teleported &a%warp% &7warp'
+
+ErrorWarp: '&b&lYou can not set warps'
+
+NoWarpConsole: '&b&lConsole is not a player, Console cant set a warp'
+
+CreateWarp: '&b&l%warp% &7has been set at your location'
+
+NoPermission: '&cInvalid permission'
+
+
+ReloadMessage: '&b&lConfig.yml has been Reloaded!'
+
+prefix: '&b&lSetSpawn&7 >>'
